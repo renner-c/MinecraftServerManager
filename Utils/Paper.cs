@@ -17,7 +17,8 @@ namespace MinecraftServerSoftware.Utils
             {
                 if (item > largest) { largest = item; }
             }
-
+            
+            wc.Dispose();
             return largest;
         }
 
@@ -28,11 +29,12 @@ namespace MinecraftServerSoftware.Utils
             try
             {
                 if (wc.DownloadString("https://papermc.io/api/v2/projects/paper/versions/" + MinecraftVersion) ==
-                    "{\"error\":\"no such version\"}") { return false; }
-                else { return true; }
+                    "{\"error\":\"no such version\"}") { wc.Dispose(); return false; }
+                else { wc.Dispose(); return true; }
             }
             catch
             {
+                wc.Dispose();
                 return false;
             }
         }

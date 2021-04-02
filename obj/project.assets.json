@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\MinecraftServerSoftware\\MinecraftServerSoftware.csproj",
+      "projectUniqueName": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\MinecraftServerSoftware.csproj",
       "projectName": "MinecraftServerSoftware",
-      "projectPath": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\MinecraftServerSoftware\\MinecraftServerSoftware.csproj",
+      "projectPath": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\MinecraftServerSoftware.csproj",
       "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\MinecraftServerSoftware\\obj\\",
+      "outputPath": "C:\\Users\\crazy\\Desktop\\MinecraftServerSoftware\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crazy\\AppData\\Roaming\\NuGet\\NuGet.Config",
