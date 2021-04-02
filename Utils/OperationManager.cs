@@ -11,7 +11,7 @@ namespace MinecraftServerSoftware.Utils
     {
         public static void CreateServer(string servername)
         {
-            Screen.Print("\nWhat Minecraft version would you like the server to be? >> ", ConsoleColor.Green);
+            Screen.Print("\What Minecraft version would you like the server to be? >> ", ConsoleColor.Green);
             string chosenversion = Console.ReadLine();
 
             if (Paper.DoesVersionExist(chosenversion) == false)
